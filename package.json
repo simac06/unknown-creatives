@@ -1,0 +1,23 @@
+{
+  "name": "unknown-creatives",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/public-site",
+    "apps/user-dashboard"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:public-site": "npm run build -w apps/public-site",
+    "dev:public-site": "npm run dev -w apps/public-site",
+    "preview:public-site": "npm run preview -w apps/public-site",
+    "build:user-dashboard": "npm run build -w apps/user-dashboard",
+    "dev:user-dashboard": "npm run dev -w apps/user-dashboard",
+    "start:user-dashboard": "npm run start -w apps/user-dashboard",
+    "lint:user-dashboard": "npm run lint -w apps/user-dashboard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
